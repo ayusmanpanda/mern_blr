@@ -1,0 +1,45 @@
+Try - sessionStorage
+
+1. have a login page, which will have username and password, 
+		a. store username in a sessionstorage
+		b. have a value sessionStorage.isLoggedin = false by default (make it true if login is successful, login will be successful when userenters admin and admin1234 as credentials)
+
+	when login is successful, navigate user to home.html
+
+
+2. create another page, home.html, display welcome username on top right
+	Note: do not open the page if user is logged in, instead navigate user to login page
+
+------------------------------------------------------------------------------------------------------------
+				JS Mini Project (to be submitted)
+	Develop a impressive Web Page for CTC calculation to be used by recruitment team 
+
+		They Need to enter, 
+			Name of the candidate
+			Age
+			Gender
+			Education : Engg Master (radio button) 
+			Score : 80% above or low (radio button)
+			Any IT certification : Web, Cloud, AI (checkbox, can select multiple)
+			Experience : Drop Down 0 to 10 years
+			Preferred Work Location : Pune / BLR / Chennai / HYD
+		basic salary Engg - 7000 / Master 12000
+		score Above 80% - 6000 - below 80% 4000
+		Add 1000 for every certification 
+		Experience - 1200 for every year
+		Cost of living allowance - Pune - 800/ BLR - 1200 / Chennai - 500 / HYD - 500
+		Food Allowance - 2000
+		Travel Allowance - 2000
+		PF - 3000
+		Insurance - 1000
+		Gross Salary (Basic + Score + certification + exp + cost + food + travel + PF + Insurance)
+		
+		Tax - 8% For Male - 5% for female on Gross
+		Display Annual CTC : (Gross - tax) * 12 
+
+		 
+						
+
+
+
+ 

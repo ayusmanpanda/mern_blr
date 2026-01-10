@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @keyframes firstEffect
+    {
+        from
+        {
+            background-color: orange;
+            width: 200px;
+            height: 200px;
+            color: white;
+        }
+        to
+        {
+             background-color: magenta;
+            width: 100px;
+            height: 100px;
+            color: peru;
+           
+        }
+    }
+
+    @keyframes demo2 {
+        0%{
+            background-color: red;
+        }
+        25%{
+            background-color: green;
+        }
+        50%{
+            background-color: blue;
+            color: white;
+        }
+        75%{
+            background-color: yellow;
+        }
+        100%{
+            background-color: black;
+            color: white;
+        }
+    }
+    h1{
+        animation: demo2;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    p{
+        border: 2px solid black;
+        width: 90px;
+        animation: firstEffect ;
+         animation-duration: 30s;
+        animation-iteration-count: 3;
+
+    }
+</style>
+<body>    
+    <p> Hello I am a Content, I am being used for animation demo</p>
+
+    <h1> Hello I am a Content, I am being used for animation demo</h1>
+</body>
+</html>

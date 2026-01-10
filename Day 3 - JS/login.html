@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<script>
+    function validateLogin()
+    {
+            var val_userName = document.getElementById("txtUname").value;
+            var val_password = document.getElementById("txtPwd").value;
+
+            if(val_userName.length == 0 || val_password.length == 0)
+            {
+                document.getElementById("pErrMsg").innerText = "Please enter Credentials"
+                return false;
+            }
+            if(val_password.length > 20 || val_password.length < 5)
+            {
+                alert("Please enter Valid password");
+                return false;
+            }
+                //we can make a REST call and send data to server, which will
+                //return the result
+            if(val_userName == "admin" && val_password == "admin123")
+            {
+                alert("Login Success");
+                //navigate to next page
+                return false;
+            }
+            else
+            {
+                alert("Login Failed");
+                return false;
+            }
+    }
+</script>
+<body>
+    <form>
+    <section style="border: 2px solid black;">
+        <table border="0">
+            <tr> <td> <input type="text" id="txtUname" placeholder="User name"/> </td></tr>
+            <tr> <td> <input type="password" id="txtPwd" placeholder="Password"/> </td></tr>
+            <tr> <td> <input type="button" value="Login" onclick="validateLogin()"/> </td>
+            <td> <input type="reset" /> </td>  </tr>
+            <tr>
+                <td>
+                <p id="pErrMsg"> </p>
+                </td>
+            </tr>
+        </table>
+    </section>
+    </form>
+</body>
+</html>

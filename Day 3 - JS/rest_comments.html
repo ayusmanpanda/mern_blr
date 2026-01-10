@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments Data</title>
+</head>
+
+<script>
+    function getCommentsData(){
+        var url = 'https://jsonplaceholder.typicode.com/comments';
+
+        fetch(url).then(config =>  config.json()  )
+                  .then(result => {
+                                         console.log(result);
+                                         alert('Got the data');
+                                         var table = document.querySelector('table');
+                                         result.forEach(comment => {
+                                             var tr = document.createElement('tr');
+                                             tr.innerHTML = `<td>${comment.id}</td>
+                                                             <td>${comment.name}</td>
+                                                             <td>${comment.email}</td>
+                                                             <td>${comment.body}</td>`;
+                                             table.appendChild(tr);
+                                         });
+                                  })                                         
+                  .catch(err =>  console.log(err) );
+                            
+    }
+</script>
+
+
+<body>
+    <button onclick="getCommentsData()"> Show Comments</button>
+    <table border="1"></table>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Categories of data
+
+1. Primitive data types (int, string, bool)
+2. Array of Primitive data type []
+3. JSON objects
+4. Array of JSON Objects

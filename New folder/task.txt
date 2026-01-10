@@ -1,0 +1,21 @@
+1. create a new application, shoppingapp
+2. in the app create a state variable which will have 3 JSON Object array
+		maleproducts=[{},{},{},{},{}]
+		femaleproducts=[]
+		kidsproducts=[]
+
+		{pId:101, pName:'Cap',pCategoty:'Accessory',Availbleqty:10,pPrice:500,pIsInStock:true}
+
+		have 5 products for all 3 categories
+
+3. create 3 components maleproducts, femaleproducts, kidsproducts
+		we need to display products in a table
+
+----
+tomorrow, we will learn 
+	1.functions on this app and display the summary of stock
+		I.e Total Products(30), storeValue (price * qty) for all products
+		add a product to cart component
+	2. Fetch this data from Rest API		
+		
+	

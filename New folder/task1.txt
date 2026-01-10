@@ -1,0 +1,18 @@
+1. created a new application statepropstest
+2. open the app with vscode, change the function based app component into a class based component
+3. declare state variable in app and use it in the app
+
+4. add a new JSON object in state as contactdetails which will have phoneno, email, address
+
+	 contactDetails:{
+          email:'nikhilshah.net@hotmail.com',
+          phone:'123-456-7890',
+          address:'Mumbai'
+        }
+
+5. create a new class based component, contactinfo.js, and display contact infotmation in h1
+6. plug the above component in app.js
+	<ContactInfo/>
+	test it
+
+	we will then learn how to pass email, phone and address into the contactinfo component

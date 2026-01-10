@@ -1,0 +1,32 @@
+1. Create a new application, hooksdemo
+2. remove the default content from App function app inside the render function 
+3. add a new file usestatedemo.js
+4. create a new component in the file, function based 
+	import { useState } from 'react';
+	import { createRoot } from 'react-dom/client';
+
+	function FavoriteColor() {
+  		const [color, setColor] = useState("red");
+
+  return (
+    <>
+      <h1>My favorite color is {color}!</h1>
+      <button
+        type="button"
+        onClick={() => setColor("blue")}
+      >Blue</button>
+      <button
+        type="button"
+        onClick={() => setColor("red")}
+      >Red</button>
+      <button
+        type="button"
+        onClick={() => setColor("pink")}
+      >Pink</button>
+      <button
+        type="button"
+        onClick={() => setColor("green")}
+      >Green</button>
+    </>
+  );
+}

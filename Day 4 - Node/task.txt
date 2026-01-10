@@ -1,0 +1,18 @@
+
+
+			
+
+			1. Finish the RestAPi - get method - get the data from MySQL
+			2. Lunch 
+			3. comeback and finish post, put and delete with database
+
+----------------------------------------------------------------------------------------------------------
+			
+		1. Open the HTML form page from yesterday which makes a api call, (any get/put/post/del)
+		2. change the URL of api in fetch method to make a call to the new rest api you developed on
+			node today
+		3. you may face an error for CORS, you need to find which package needs to be installed
+			on node and which require statement needs to be added
+
+
+-----Later you can read blogs on w3school for node

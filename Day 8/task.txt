@@ -1,0 +1,23 @@
+				Very logical and easy task
+
+1. create a new application, shopping app, change the functional app to class based app
+2. add an JSON object array of products (5 products) Id, name, category, price 
+3. display the product in table with 4 columns
+4. add a form on the same component, have 4 textboxes and a button, user fills up the textboxes and clicks the add button, and product gets added in the table
+------------------------------------------------------------------------------------------
+2. In your database, create a new database, shoppingDBAPP
+3. Create a table Products
+	pId - Primary key
+	pName 
+	pCategory
+	pPrice
+	pAvaileQty
+	pIsInStock
+	pDiscountRate
+
+	add 5 products
+4. Create a Rest API Service (Java Springboot / Node) test all the crud operations
+-----------------------------------		
+		Tomorrow we will learn 2 things
+	1. What is a SPA application and how to create it
+	2. Make rest api calls in SPA application 

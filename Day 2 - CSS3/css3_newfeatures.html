@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 3</title>
+
+</head>
+<style>
+    img{        
+        width: 100px;
+        height: 100px;
+        box-shadow: 10px 10px 10px aquamarine;
+    }
+    img:hover{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        transform: rotate(160deg);
+    }
+
+    h1{
+        background-color: black;
+        color: white;
+        border-radius: 50px;        
+        width: 500px;
+        text-align: center;
+        text-shadow: 5px 5px 1px purple;
+        /* box-shadow: -20px -20px 3px orange; */
+        border-image: url('border.png') 30 round;
+    }
+    p{
+        width: 200px;
+        height: 300px;
+        border: 1px black solid;
+        word-wrap: break-word;
+    }
+
+    @font-face {
+        font-family: customFont;
+        src: url('AlisonRegular.ttf');
+        font-size: 40px;
+       
+    }
+    h2{
+        font-family: customFont;
+        color: red;
+    }
+
+    #translateDemo{
+            background-color: blueviolet;
+            transform: translate(55px,55px)
+    }
+    #rotateDemo{
+            background-color: aqua;
+            transform:rotate(60deg);
+    }
+    #scaleDemo{
+        background-color: brown;
+        transform: scale(140%,140%);
+    }
+    #skewDemo{
+        background-color: lime;
+        transform: skew(60deg,60deg);
+    }
+    #transictionDemo:hover{
+        background-color: violet;
+        color: blue;
+        font-size: 140px;
+        font-family: customFont;
+    }
+</style>
+<body>
+    <br/>
+    <br/>
+    <br/>
+
+    <h3 id="transictionDemo"> I am been used for transiction </h3>
+
+
+    <h1> Welcome to CSS 3</h1>
+
+     <h2> This is from the custom Font</h2>
+    <img src="myimage.jpg"/>
+
+    <p> Hello my name is Nikhil, I am a programmer, I do cloud, web and mobile development
+        I am good at data analytics and data science, I do agentic AI and machine learning
+        I am from Mumbai but I am in Bangaloreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee now for a training program.
+        I am at Synechron office now. Next to Bhartiya city mall and the wether here is really nice. good
+        I am here for next 15 days and it is going to be good
+    </p>
+
+<section>
+    <span>
+
+    <p id="translateDemo"> Hello my name is Nikhil, I am a programmer, I do cloud, web and mobile development
+        I am good at data analytics and data science, I do agentic AI and machine learning
+        I am from Mumbai but I am in Bangaloreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee now for a training program.
+        I am at Synechron office now. Next to Bhartiya city mall and the wether here is really nice. good
+        I am here for next 15 days and it is going to be good
+    </p>
+
+    <p id="rotateDemo"> Hello my name is Nikhil, I am a programmer, I do cloud, web and mobile development
+        I am good at data analytics and data science, I do agentic AI and machine learning
+        I am from Mumbai but I am in Bangaloreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee now for a training program.
+        I am at Synechron office now. Next to Bhartiya city mall and the wether here is really nice. good
+        I am here for next 15 days and it is going to be good
+    </p>
+
+    <p id="scaleDemo"> Hello my name is Nikhil, I am a programmer, I do cloud, web and mobile development
+        I am good at data analytics and data science, I do agentic AI and machine learning
+        I am from Mumbai but I am in Bangaloreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee now for a training program.
+        I am at Synechron office now. Next to Bhartiya city mall and the wether here is really nice. good
+        I am here for next 15 days and it is going to be good
+    </p>
+
+    <p id="skewDemo"> Hello my name is Nikhil, I am a programmer, I do cloud, web and mobile development
+        I am good at data analytics and data science, I do agentic AI and machine learning
+        I am from Mumbai but I am in Bangaloreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee now for a training program.
+        I am at Synechron office now. Next to Bhartiya city mall and the wether here is really nice. good
+        I am here for next 15 days and it is going to be good
+    </p>
+
+    </span>
+</section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+</body>
+</html>

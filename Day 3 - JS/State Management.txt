@@ -1,0 +1,17 @@
+				State Management
+
+2 new Objects introduced for storing the values on user machine
+
+a. localStorage (permenantly store data locally on client machine)
+b. sessionStoage (temp storage for a single session, close the browser, data will be gone)
+
+	they are Key and value pair
+		localStorage.firstName = "Nikhil"
+
+This is to overcome the problems with cookies
+a. Cokkies are depended on the browser settings, if browsers setting disable cookies, our code does not work
+b. cokkies can store max 4KB of data(state management will allow 5MB) per site
+c. Cookies always gets transmitted from browser to server 
+
+
+		

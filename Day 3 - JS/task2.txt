@@ -1,0 +1,18 @@
+Create a new page, Calculation
+
+take 2 text boxes, FirstNumber and SecondNumber
+
+user needs to provide values and display
+
+Addition
+
+Subtraction
+
+Multiplication
+
+Division on the page in H3
+
+(apply as much as possible validations)
+
+show error message in a P - red color
+-----------------------------------------------------------------------------------------------------------

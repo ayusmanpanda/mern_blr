@@ -1,0 +1,25 @@
+		fetch('url').then(config)   --->here we setup, what kind of request we are making
+					      ---> data type of return (xml / json / stream)						.then(result)   ---> makes a call, data comes and your HTML code to display
+				.catch(errDetails) --> display the error
+
+
+
+
+1.
+			fetch('https://jsonplaceholder.typicode.com/comments')
+			
+2.		
+		var url = 'https://jsonplaceholder.typicode.com/comments'
+		fetch(url)
+
+		var post = 'https://jsonplaceholder.typicode.com/post'
+		var comments = 'https://jsonplaceholder.typicode.com/comments'
+
+			if(ddl_userChoice == 'Comments')
+			{
+				fetch(comments)
+			}
+			else
+			{
+				fetch(post)
+			}

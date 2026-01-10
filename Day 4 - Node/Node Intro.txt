@@ -1,0 +1,24 @@
+What is Node.js?
+
+Node.js is a runtime environment that allows you to run JavaScript outside the browser — mainly on servers.
+
+✔ Built on Google Chrome’s V8 JavaScript Engine
+✔ Enables backend development using JavaScript
+✔ Supports high performance and scalability
+
+--------
+Why use Node.js?
+Feature	Benefit
+
+Single-threaded & Event-driven	Handles many connections efficiently
+Non-blocking I/O	Fast for data-intensive apps
+Same language (JS) for frontend + backend	Easier development
+Rich ecosystem	Over 2M packages in npm (Node Package Manager)
+--------
+Where is Node.js used?
+
+✔ Web applications (Backend APIs)
+✔ Real-time apps (Chat apps, Live notifications)
+✔ Streaming services (video/audio)
+✔ Microservices
+✔ IoT applications

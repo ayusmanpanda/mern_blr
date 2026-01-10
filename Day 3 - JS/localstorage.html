@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Management - Localstorage</title>
+</head>
+
+
+<script>
+    function saveData()
+    {
+        localStorage.firstName = document.getElementById('firstName').value;
+        localStorage.lastName = document.getElementById('lastName').value;
+        localStorage.email = document.getElementById('email').value;
+        localStorage.age = document.getElementById('age').value;
+        localStorage.address = document.getElementById('address').value;
+        alert("Data Saved");
+    }
+
+    function getData()
+    {
+        document.getElementById('firstName').value = localStorage.firstName;
+        document.getElementById('lastName').value = localStorage.lastName;
+        document.getElementById('email').value = localStorage.email;
+        document.getElementById('age').value = localStorage.age;
+        document.getElementById('address').value = localStorage.address;
+    }
+</script>
+<body>
+        <form>
+            <input type="text" placeholder="Enter first Name" id="firstName" /><br/>
+            <input type="text" placeholder="Enter Last Name" id="lastName"/><br/>
+            <input type="text" placeholder="Enter Email" id="email"/><br/>
+            <input type="number" placeholder="Enter Age" id="age"/><br/>
+            <input type="text" placeholder="Enter Address" id="address"/><br/>
+
+            <button type="button" onclick="saveData()">Save Data</button>
+            <button type="button" onclick="getData()">Get Data</button>
+        </form>
+
+</body>
+</html>

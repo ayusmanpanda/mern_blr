@@ -1,0 +1,53 @@
+						React
+
+1. 
+It is a frontend - UI library used to create a SPA application 
+		Index.html is sent to client 
+			on the browser, we have browser DOM which manages HTML, CSS and JS
+
+		with react, we will have different dom which will manage the react page (index.html)
+			called as virtual dom (it performs data management, UI management, session management
+
+		we aim to create a Client Centeric Application 
+---------------------------------------------------------------------------------------
+2. Framework created and made open source by Facebook
+
+3. uses HTML5, CSS3 and ECMAS (ES) - European Compouter Manufacturing Association 
+			--ES is Type safe
+			--ES is compiled
+			--ES is OOPS based
+		(it also supports Typescript) - TS is a wrapper around ES to make it more simple
+
+4. Runs on Node, but can run on any other server, is used as a front end component in Server side applications as well
+
+5. This follows Component based development (Component Modelling Pattern)
+		components are like Plugins
+
+------------- There are 2 ways to program components (class based components and function based components)
+				Class based for developers coming from OOPS background
+				Advance JS developers will use Function based components
+
+-------------------------------------------------------------------------------------------
+			npm install @create-react-app 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
